@@ -1,0 +1,33 @@
+﻿# Logs
+logs
+*.log
+
+*.git
+venv
+
+
+
+# 👉 Custom Git ignores
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/*.code-snippets
+!.vscode/tours
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.yarn
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+**/*__pycache__/*
+**/*__pycache__/**.pyc
+./temp
